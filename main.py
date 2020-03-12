@@ -1,6 +1,4 @@
-from room import Room
-from character import Enemy, Friend
-from item import Item
+from rpg import Character, Enemy, Friend, Room, Item
 
 kitchen = Room("Kitchen")
 kitchen.set_description("A dank and dirty room buzzing with flies.")
